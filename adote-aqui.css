@@ -40,30 +40,29 @@ header{
     padding: 10px;
     background-color: rgb(253, 255, 134);
 }
-h1:hover{
-    font-size: 38px;
-    color: yellow;
-}
+
 body{
-    background-color: rgb(199, 211, 221);
+    background-color: rgb(87, 91, 94);
 }
 
 img{
-    max-width: 100%;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     display: block;
 }
 .flex-container{
     display: flex;
     flex-wrap: wrap;
     flex-direction: space-between;
+    justify-content: space-between;
     max-width: 800px;
     margin: auto;
     align-items: center;
     background-color: aliceblue;
+    
 }
 .flex-container > div{
-    flex: 3 3 150px;
+    flex: 1 1 100px;
     flex-direction: row;
     margin: 5px;
     padding: 5px;
@@ -90,6 +89,36 @@ button{
     color: whitesmoke;
     font-family: 'Fredoka One', cursive;
 }
-#imagem{
-    size: 250px;
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.inicial{
+    width: 160px;
+    height: 60px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-media{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.facebook{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.instagram{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.twitter{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
 }
