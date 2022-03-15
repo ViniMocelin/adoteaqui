@@ -50,7 +50,7 @@ img{
     height: 200px;
     display: block;
 }
-.flex-container{
+section{
     display: flex;
     flex-wrap: wrap;
     flex-direction: space-between;
@@ -61,13 +61,21 @@ img{
     background-color: aliceblue;
     
 }
-.flex-container > div{
+.flex-container-a > div{
     flex: 1 1 100px;
+    display: flex;
     flex-direction: row;
     margin: 5px;
     padding: 5px;
-    align-items: center;
-    
+    align-items: space-around;
+}
+.flex-container-b > div{
+    flex: 1 1 100px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    align-items: space-around;
 }
 button:hover{
     background-color: rgb(244, 252, 132);
@@ -76,11 +84,14 @@ button:hover{
     font-size: 17px;
     border-radius: 10px;
 }
-#título{
+h2{
     font-family: 'Sansita Swashed', cursive;
+    align-items: center;
 }
-#texto{
+p{
     font-family: 'Caveat', cursive;
+    align-items: center;
+    
 }
 button{
     border: rgb(255, 252, 252);
@@ -100,7 +111,8 @@ button{
 .main-footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex: 1 1 100px;
 }
 .social-media{
   display: flex;
@@ -121,4 +133,47 @@ button{
     height: 40px;
     width: 40px;
     margin: 5px;
+}
+#titulo-pug{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 200px;
+    width: 500px;
+    justify-content: space-around;
+}
+#botaozinho-pug{
+    width: 135.13px;
+    
+}
+#título-caramelinho{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 200px;
+    width: 500px;
+    justify-content: space-around;
+}
+#título-rosinha{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 200px;
+    width: 500px;
+    justify-content: space-around;
+}
+#título-donalds{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 200px;
+    width: 500px;
+    justify-content: space-around;
+}
+.direitos{
+    align-items: center;
+    
+}
+.flex-container-a{
+    background-color: rgb(206, 209, 208);
 }
