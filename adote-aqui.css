@@ -1,0 +1,95 @@
+*{
+    margin:  0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    overflow: hidden;
+}
+#navbar{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(44, 46, 48);
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    font-size: 23px;
+    font-family: 'Fredoka One', cursive;
+}
+#navbar li{
+    display: inline;
+    text-decoration: none;
+}
+#navbar li a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    transition: background 1s;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    color: rgb(12, 12, 10);
+    padding: 10px;
+    background-color: rgb(253, 255, 134);
+}
+h1:hover{
+    font-size: 38px;
+    color: yellow;
+}
+body{
+    background-color: rgb(199, 211, 221);
+}
+
+img{
+    max-width: 100%;
+    height: 100px;
+    display: block;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: space-between;
+    max-width: 800px;
+    margin: auto;
+    align-items: center;
+    background-color: aliceblue;
+}
+.flex-container > div{
+    flex: 3 3 150px;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    
+}
+button:hover{
+    background-color: rgb(244, 252, 132);
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+}
+#título{
+    font-family: 'Sansita Swashed', cursive;
+}
+#texto{
+    font-family: 'Caveat', cursive;
+}
+button{
+    border: rgb(255, 252, 252);
+    padding: 10px;
+    background-color: rgb(44, 46, 48);;
+    color: whitesmoke;
+    font-family: 'Fredoka One', cursive;
+}
+#imagem{
+    size: 250px;
+}
