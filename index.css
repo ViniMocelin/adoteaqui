@@ -177,7 +177,7 @@ button{
 
 @media (max-width=430px) {
     nav{
-     background-color: aqua;
+     background: aqua;
      display: flex;
      flex-direction: column;
     }
